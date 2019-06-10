@@ -7704,11 +7704,20 @@ h5 {
 /* конец верхней синей полоски */
 /* top-menu begin */
 .top-menu {
-  height: 90px;
+  height: 100%;
   background-color: #43c3ea;
   color: #fff; }
   .top-menu .tm-height {
-    height: 90px; }
+    min-height: 90px; }
+
+.navbar-service {
+  background-color: #43c3ea;
+  font-family: "Poppins-Bold";
+  font-size: 16px;
+  font-weight: bold; }
+
+.navbar-nav .nav-link {
+  color: #fff !important; }
 
 /* top-menu end */
 /* slider begin */
