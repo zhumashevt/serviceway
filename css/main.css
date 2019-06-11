@@ -7649,7 +7649,7 @@ a {
   color: #fff; }
 
 .far {
-  color: #152545;
+  color: #454d8c;
   margin-right: 10px; }
 
 .fas {
@@ -7662,7 +7662,7 @@ span.readmore {
   font-weight: bold; }
   span.readmore a {
     text-decoration: none;
-    color: #152545; }
+    color: #454d8c; }
 
 p {
   font-size: 1rem;
@@ -7692,7 +7692,7 @@ h5 {
 /* верхняя синяя полоска */
 .topline {
   height: 60px;
-  background-color: #152545;
+  background-color: #454d8c;
   color: #fff;
   overflow: hidden; }
   .topline .top-contact {
@@ -7716,8 +7716,11 @@ h5 {
   font-size: 16px;
   font-weight: bold; }
 
-.navbar-nav .nav-link {
-  color: #fff !important; }
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #454d8c; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff; }
 
 /* top-menu end */
 /* slider begin */
@@ -7780,7 +7783,7 @@ h5 {
 /*getintouch begin*/
 .getintouch {
   padding: 70px 0;
-  background-color: #152545;
+  background-color: #454d8c;
   color: #fff; }
   .getintouch .get-phone a {
     color: #fff; }
@@ -7796,7 +7799,7 @@ h5 {
     padding: 5px 20px; }
   .getintouch .btn-get:hover {
     background-color: #fff;
-    color: #152545; }
+    color: #454d8c; }
 
 /*getintouch end*/
 /*services begin*/
@@ -7820,12 +7823,17 @@ h5 {
       text-transform: uppercase; }
     .services .services-1 .fab, .services .services-2 .fab, .services .services-3 .fab, .services .services-4 .fab, .services .services-5 .fab, .services .services-6 .fab {
       margin-right: 10px;
-      color: #152545; }
+      color: #454d8c; }
     .services .services-1 .fas, .services .services-2 .fas, .services .services-3 .fas, .services .services-4 .fas, .services .services-5 .fas, .services .services-6 .fas {
       margin-right: 10px;
-      color: #152545; }
+      color: #454d8c; }
+    .services .services-1 a, .services .services-2 a, .services .services-3 a, .services .services-4 a, .services .services-5 a, .services .services-6 a {
+      color: #a5a5a5;
+      text-decoration: none; }
+    .services .services-1 a:hover, .services .services-2 a:hover, .services .services-3 a:hover, .services .services-4 a:hover, .services .services-5 a:hover, .services .services-6 a:hover {
+      text-decoration: underline; }
   .services .services-1:hover, .services .services-2:hover, .services .services-3:hover, .services .services-4:hover, .services .services-5:hover, .services .services-6:hover {
-    background-color: #152545; }
+    background-color: #454d8c; }
     .services .services-1:hover h4, .services .services-2:hover h4, .services .services-3:hover h4, .services .services-4:hover h4, .services .services-5:hover h4, .services .services-6:hover h4 {
       color: #fff; }
     .services .services-1:hover .far, .services .services-2:hover .far, .services .services-3:hover .far, .services .services-4:hover .far, .services .services-5:hover .far, .services .services-6:hover .far {
@@ -7902,7 +7910,7 @@ h5 {
         font-size: 1.375rem;
         font-family: "Poppins-Regular"; }
       .testimonials .testi .testi-info .fas {
-        color: #152545;
+        color: #454d8c;
         margin-right: 0px;
         margin-top: 10px;
         margin-bottom: 10px; }
@@ -7938,7 +7946,7 @@ h5 {
   padding-right: 0;
   padding-left: 0;
   color: #fff;
-  background-color: #152545; }
+  background-color: #454d8c; }
   .request .rq-height {
     min-height: 450px;
     padding: 70px 0; }
@@ -7966,7 +7974,8 @@ h5 {
         border-right: none;
         border-radius: 0;
         text-align: left;
-        font-style: italic; }
+        font-style: italic;
+        margin: 5px 0; }
       .request .rq-height .rq-forms .forinput:focus, .request .rq-height .rq-forms .forinput:active {
         border-top: none;
         border-left: none;
@@ -7977,15 +7986,15 @@ h5 {
         font-style: italic; }
       .request .rq-height .rq-forms .btn-request {
         text-align: center;
-        background-color: #152545;
+        background-color: #454d8c;
         margin-top: 20px;
         width: 30%;
         color: #fff;
-        border: 2px solid #152545;
+        border: 2px solid #454d8c;
         box-sizing: border-box; }
       .request .rq-height .rq-forms .btn-request:hover {
         background-color: #fff;
-        color: #152545;
+        color: #454d8c;
         box-sizing: border-box; }
 
 /*request quote end*/
@@ -8017,7 +8026,7 @@ h5 {
         font-size: 14px;
         text-transform: lowercase; }
       .blog .publication .pub-desc .fas {
-        color: #152545; }
+        color: #454d8c; }
     .blog .publication .blog-image:hover img {
       background-color: #212f4a;
       z-index: 999; }
@@ -8025,26 +8034,31 @@ h5 {
 /*latest blog end*/
 /*partners start*/
 .partners {
-  background-color: #43c3ea;
+  background-color: #cecfe1;
   padding: 70px 0; }
 
 /*partners end*/
 /* footer */
 footer {
-  background-color: #152545;
+  background-color: #454d8c;
   padding: 70px 0;
   color: #fff; }
   footer .footer-desc {
     margin: 25px 0px; }
   footer h4::after {
     content: '';
-    background-color: #43c3ea;
+    background-color: #cecfe1;
     height: 3px;
     width: 60px;
     display: block;
     margin: 10px 0px 50px 0px; }
   footer .nav-footer {
     margin-top: 6px; }
+    footer .nav-footer a.nav-links {
+      color: #fff;
+      text-decoration: none; }
+    footer .nav-footer a:hover {
+      text-decoration: underline; }
   footer .phone-footer {
     margin: 20px 0; }
     footer .phone-footer a {
@@ -8066,3 +8080,59 @@ footer {
     font-size: 12px; }
 
 /* end pre footer */
+/* contact page start */
+.contact-maps {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  height: 100%;
+  overflow: hidden; }
+
+.contact {
+  background-color: #fff;
+  padding: 70px 0; }
+  .contact .fas {
+    color: #253451; }
+  .contact h3 {
+    text-transform: uppercase; }
+  .contact p.after::after {
+    content: '';
+    width: 98px;
+    height: 3px;
+    background: url("../img/after.png") no-repeat;
+    display: block;
+    margin: 20px auto 40px auto; }
+  .contact .contact-input {
+    margin: 7px 5px; }
+  .contact .contact-btn {
+    text-align: center;
+    background-color: #454d8c;
+    margin-top: 20px;
+    width: 30%;
+    color: #fff;
+    border: 2px solid #454d8c;
+    box-sizing: border-box; }
+
+/* contact page end */
+.singlepage {
+  padding: 70px 0; }
+  .singlepage h3::after {
+    content: '';
+    display: block;
+    background: url("../img/after.png") no-repeat;
+    width: 98px;
+    height: 3px;
+    margin: 20px 0 40px 0; }
+
+.vendors {
+  padding: 70px 0; }
+  .vendors h3::after {
+    content: '';
+    display: block;
+    background: url("../img/after.png") no-repeat;
+    width: 98px;
+    height: 3px;
+    margin: 20px 0 40px 0; }
+
+thead {
+  font-weight: bold; }
